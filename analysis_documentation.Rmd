@@ -1,1 +1,27 @@
+---
+title: "R Script Documentation"
+author: "Harpreet Bhullar"
+date: "October 6, 2026"
+output: html_document
+---
 
+> **AI Assistance Declaration:** I used ChatGPT (GPT-5.6 Sol) on October 6, 2026, for suggestions about Markdown formatting, section organization, and R code-block presentation. I manually reviewed the AI-assisted output and checked the document structure for correctness. No real or personal data was provided to the AI tool. All final work was reviewed by me, and I am responsible for its accuracy and originality.
+
+# Purpose
+
+This R Markdown document describes a simple R script that works with a synthetic sales dataset. The purpose is to demonstrate how an R analysis can be documented clearly using explanatory text, headings, and R code chunks.
+
+Only synthetic data is used in this example.
+
+## Inputs
+
+The script creates a small synthetic dataset containing two variables:
+
+- `month` – identifies the month.
+- `sales` – contains a synthetic sales value for each month.
+
+```{r create-data}
+project_data <- data.frame(
+  month = c("January", "February", "March"),
+  sales = c(120, 145, 138)
+)
